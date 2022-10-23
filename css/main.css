@@ -1,0 +1,32 @@
+.tarjeta {
+  background: #1C4C96;
+  border-radius: 10px;
+  border: solid 5px red;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.tracera, .frontal {
+  width: 100%;
+  aspect-ratio: 1/1;
+  display: block;
+}
+.tracera img, .frontal img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 1s;
+}
+
+.frontal {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(180deg);
+}
+.frontal span {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
