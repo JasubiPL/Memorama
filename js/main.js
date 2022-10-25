@@ -1,7 +1,13 @@
-let t1 = document.getElementById("t1").addEventListener("click",voltear);
+let getCard = document.getElementsByClassName("tarjeta");
+
+for(i=0;i<getCard.length;i++){
+    getCard[i].addEventListener("click", voltear);
+}
+
+
 
 function voltear(){
-    //alert("Funciona el boton");
+    alert("Funciona el boton");
     let t1F = document.getElementById("t1-f");
     let t1B = document.getElementById("t1-b");
     let t1 = document.getElementById("t1")
