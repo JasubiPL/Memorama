@@ -65,7 +65,7 @@ let puntosAcumulados = 0;
 
 /*----Funciones----*/
 function voltearT1(){
-    alert("Funciona");
+    //alert("Funciona");
 
     t1.style.transform = "rotateY(180deg)";
     t1.style.transition = ".75s";
@@ -83,7 +83,7 @@ function voltearT1(){
 }
 
 function voltearT2(){
-    alert("Funciona");
+    //alert("Funciona");
 
     t2.style.transform = "rotateY(180deg)";
     t2.style.transition = ".75s";
@@ -101,7 +101,7 @@ function voltearT2(){
 }
 
 function voltearT3(){
-    alert("Funciona");
+    //alert("Funciona");
 
     t3.style.transform = "rotateY(180deg)";
     t3.style.transition = ".75s";
@@ -119,7 +119,7 @@ function voltearT3(){
 }
 
 function voltearT4(){
-    alert("Funciona");
+    //alert("Funciona");
 
     t4.style.transform = "rotateY(180deg)";
     t4.style.transition = ".75s";
@@ -136,7 +136,7 @@ function voltearT4(){
 }
 
 function voltearT5(){
-    alert("Funciona");
+   // alert("Funciona");
 
     t5.style.transform = "rotateY(180deg)";
     t5.style.transition = ".75s";
@@ -154,7 +154,7 @@ function voltearT5(){
 }
 
 function voltearT6(){
-    alert("Funciona");
+    //alert("Funciona");
 
     t6.style.transform = "rotateY(180deg)";
     t6.style.transition = ".75s";
@@ -172,7 +172,7 @@ function voltearT6(){
 }
 
 function voltearT7(){
-    alert("Funciona");
+    //alert("Funciona");
 
     t7.style.transform = "rotateY(180deg)";
     t7.style.transition = ".75s";
@@ -190,7 +190,7 @@ function voltearT7(){
 }
 
 function voltearT8(){
-    alert("Funciona");
+    //alert("Funciona");
 
     t8.style.transform = "rotateY(180deg)";
     t8.style.transition = ".75s";
@@ -208,7 +208,7 @@ function voltearT8(){
 }
 
 function voltearT9(){
-    alert("Funciona");
+    //alert("Funciona");
 
     t9.style.transform = "rotateY(180deg)";
     t9.style.transition = ".75s";
@@ -226,7 +226,7 @@ function voltearT9(){
 }
 
 function voltearT10(){
-    alert("Funciona");
+    //alert("Funciona");
 
     t10.style.transform = "rotateY(180deg)";
     t10.style.transition = ".75s";
@@ -243,7 +243,7 @@ function voltearT10(){
     
 }
 function voltearT11(){
-    alert("Funciona");
+    //alert("Funciona");
 
     t11.style.transform = "rotateY(180deg)";
     t11.style.transition = ".75s";
@@ -261,7 +261,7 @@ function voltearT11(){
 }
 
 function voltearT12(){
-    alert("Funciona");
+    //alert("Funciona");
 
     t12.style.transform = "rotateY(180deg)";
     t12.style.transition = ".75s";
@@ -307,45 +307,47 @@ function jugada1(){
 }
 
 function desaparecer(){
-    if(valor1 === 1){
-       // alert("Se ejecuta la funcion")
-        t1.style.display = "none";
-        t7.style.display = "none";
-        valor1 = 0;
-        valor2 = 0;
-    }else if(valor1 === 2){
-       // alert("Se ejecuta la funcion")
-        t2.style.display = "none";
-        t8.style.display = "none";
-        valor1 = 0;
-        valor2 = 0;
-    }else if(valor1 === 3){
-        //alert("Se ejecuta la funcion")
-        t3.style.display = "none";
-        t9.style.display = "none";
-        valor1 = 0;
-        valor2 = 0;
-    }else if(valor1 === 4){
-       // alert("Se ejecuta la funcion")
-        t4.style.display = "none";
-        t10.style.display = "none";
-        valor1 = 0;
-        valor2 = 0;
-    }else if(valor1 === 5){
-       // alert("Se ejecuta la funcion")
-        t5.style.display = "none";
-        t11.style.display = "none";
-        valor1 = 0;
-        valor2 = 0;
-    }else if(valor1 === 6){
-        //alert("Se ejecuta la funcion")
-        t6.style.display = "none";
-        t12.style.display = "none";
-        valor1 = 0;
-        valor2 = 0;
-    }
-    puntosAcumulados = puntosAcumulados + 10;
-    contador.innerText = puntosAcumulados;
+    setTimeout(() =>{
+        if(valor1 === 1){
+            // alert("Se ejecuta la funcion")
+             t1.style.display = "none";
+             t7.style.display = "none";
+             valor1 = 0;
+             valor2 = 0;
+         }else if(valor1 === 2){
+            // alert("Se ejecuta la funcion")
+             t2.style.display = "none";
+             t8.style.display = "none";
+             valor1 = 0;
+             valor2 = 0;
+         }else if(valor1 === 3){
+             //alert("Se ejecuta la funcion")
+             t3.style.display = "none";
+             t9.style.display = "none";
+             valor1 = 0;
+             valor2 = 0;
+         }else if(valor1 === 4){
+            // alert("Se ejecuta la funcion")
+             t4.style.display = "none";
+             t10.style.display = "none";
+             valor1 = 0;
+             valor2 = 0;
+         }else if(valor1 === 5){
+            // alert("Se ejecuta la funcion")
+             t5.style.display = "none";
+             t11.style.display = "none";
+             valor1 = 0;
+             valor2 = 0;
+         }else if(valor1 === 6){
+             //alert("Se ejecuta la funcion")
+             t6.style.display = "none";
+             t12.style.display = "none";
+             valor1 = 0;
+             valor2 = 0;
+         }
+         puntosAcumulados = puntosAcumulados + 10;
+         contador.innerText = puntosAcumulados;
+    },750);
 }
 
 function voltearTarjetas(){
@@ -374,7 +376,7 @@ function voltearTarjetas(){
         t11B.style.display = "flex";
         t12F.style.display = "none";
         t12B.style.display = "flex";
-    },1000);
+    },750);
     
 
 }
