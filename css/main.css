@@ -29,4 +29,11 @@
   font-size: 4rem;
   font-weight: bolder;
   color: white;
+}
+
+.contador {
+  font-size: 3rem;
+  background-color: #1C4C96;
+  color: #fff;
+  padding: 0px 20px;
 }/*# sourceMappingURL=main.css.map */
